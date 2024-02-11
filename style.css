@@ -50,6 +50,8 @@ header img {
   display: flex;
   flex-flow: column;
   position: relative;
+  max-width: 1440px; /*avoid chaotic content spreading*/
+  margin: 0 auto;
 }
 
 .section_sell_nft h1 {
@@ -108,3 +110,51 @@ header img {
   filter: blur(116px);
   z-index: -1;
 }
+
+/*background shape images*/
+.section_sell_nft img {
+position: absolute;
+}
+
+.sell_nft_img1 {
+  width: 173px;
+  height: 174px;  
+  top: 5px;
+  left: 53px;
+}
+.sell_nft_img2 {
+    width: 111px;
+    height: 112px;
+    top: 67px;
+    right: 167px;
+}
+.sell_nft_img3 {
+    width: 299px;
+    height: 300px;
+    left: -16px;
+    top: 298px;
+}
+.sell_nft_img4 {
+    width: 211px;
+    height: 211px;
+    right: 33px;
+    top: 387px; 
+}
+/*Section partners*/
+.section_partners {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  margin: 0 auto; /*fixed placement section*/
+  margin-top: 101px;
+  max-width: 1440px;
+}
+
+.section_partners img {
+  margin-right: 40px;
+}
+
+.section_partners img:last-child {
+  margin-right: 0px;
+}
+
