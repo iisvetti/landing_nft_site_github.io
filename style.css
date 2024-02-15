@@ -329,3 +329,55 @@ margin: 0 auto;
   text-align: center;
   color: #532C59;
 }
+
+/*Section quanda*/
+.section_quanda {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.qa_wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 24px;
+  border: 2px solid #D6BCFA;
+  border-radius: 15px;
+  background: #FCFAFF;
+  position: relative;
+  max-width: 412px;
+  height: fit-content;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.qa_wrapper p{
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.8; 
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.qa_wrapper span {
+  display: flex;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #532C59;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.qa_wrapper svg {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
