@@ -352,8 +352,6 @@ margin: 0 auto;
   
 }
 
-
-
 .section_qanda h2 {
     font-family: 'Syne';
     font-weight: 600;
@@ -372,7 +370,6 @@ margin: 0 auto;
   color: #532C59;
   margin: 0;
 }
-
 
 .qa_wrapper {
   display: flex;
@@ -416,4 +413,123 @@ margin: 0 auto;
   right: 24px;
   top: 24px;
   cursor: pointer;
+}
+
+/*Section ready*/
+.section_ready {
+  display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 90px;
+    margin-bottom: 160px;
+}
+
+.ready_wrapper {
+background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 446px;
+    position: relative; 
+  }
+
+  .ready_wrapper h2 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.ready_wrapper h3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.ready_wrapper button {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #532C59;
+  border-radius: 15px;
+  outline: none;
+  padding: 16px 20px; 
+}
+
+.ready_wrapper img {
+  position: absolute;
+}
+
+.ready_wrapper img:first-child {
+  left: 0
+}
+
+.ready_wrapper img:nth-child(2) {
+  right: 0;
+}
+
+/*Footer*/
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 41px;
+  border-bottom: 1px solid #CCD5DF;
+}
+
+footer .top a {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+footer .top .a_wrapper a:last-child {
+  margin-right: 0px;
+}
+
+footer .bottom {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
