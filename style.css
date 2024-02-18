@@ -10,25 +10,24 @@ body {
 }
 
 .nft_h2 {
-  font-family: 'Syne';
+  font-family: "Syne";
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   text-align: center;
   color: #000000;
   margin-bottom: 24px;
-  }
-  
-  .nft_h3 {
-    font-family: 'Space Grotesk';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #532c59;
-    margin: 0;
-  }
-  
+}
+
+.nft_h3 {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #532c59;
+  margin: 0;
+}
 
 /*Header*/
 header {
@@ -41,7 +40,6 @@ header {
   align-items: center;
   padding: 0px 70px;
 }
-
 
 header .wrapper {
   height: 76px;
@@ -87,15 +85,15 @@ header img {
 }
 
 .section_sell_nft h1 {
-  font-family: 'Syne';
-    text-align: center;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 96px;
-    color: #000000;
-    text-shadow: -5px 5px 0px #FFFFFF;
-    padding-top: 117px;
-    margin: 0 auto;
+  font-family: "Syne";
+  text-align: center;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #000000;
+  text-shadow: -5px 5px 0px #ffffff;
+  padding-top: 117px;
+  margin: 0 auto;
 }
 
 .section_sell_nft p {
@@ -130,7 +128,8 @@ header img {
 
 .sell_nft_bg {
   position: absolute;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 499px;
   left: 0px;
   top: 57px;
@@ -146,32 +145,32 @@ header img {
 
 /*background shape images*/
 .section_sell_nft img {
-position: absolute;
+  position: absolute;
 }
 
 .sell_nft_img1 {
   width: 173px;
-  height: 174px;  
+  height: 174px;
   top: 5px;
   left: 53px;
 }
 .sell_nft_img2 {
-    width: 111px;
-    height: 112px;
-    top: 67px;
-    right: 167px;
+  width: 111px;
+  height: 112px;
+  top: 67px;
+  right: 167px;
 }
 .sell_nft_img3 {
-    width: 299px;
-    height: 300px;
-    left: -16px;
-    top: 298px;
+  width: 299px;
+  height: 300px;
+  left: -16px;
+  top: 298px;
 }
 .sell_nft_img4 {
-    width: 211px;
-    height: 211px;
-    right: 33px;
-    top: 387px; 
+  width: 211px;
+  height: 211px;
+  right: 33px;
+  top: 387px;
 }
 /*Section partners*/
 .section_partners {
@@ -198,7 +197,7 @@ position: absolute;
   margin-top: 80px;
 }
 
- .wrapper {
+.wrapper {
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
@@ -206,7 +205,6 @@ position: absolute;
   padding-bottom: 160px;
   padding-top: 80px;
 }
-
 
 /*.wrapper {
   display: flex;
@@ -224,7 +222,7 @@ position: absolute;
 }
 
 .team_wrapper p {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -232,11 +230,11 @@ position: absolute;
   color: #000000;
   margin-top: 12px;
   margin-bottom: 12px;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .team_wrapper span {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -265,11 +263,11 @@ position: absolute;
   align-items: center;
   max-width: 412px;
   margin: 0 16px;
-  margin-bottom: 64px
+  margin-bottom: 64px;
 }
 
-.collection_wrapper p{
-  font-family: 'Syne';
+.collection_wrapper p {
+  font-family: "Syne";
   font-weight: 600;
   font-size: 32px;
   line-height: 42px;
@@ -281,12 +279,12 @@ position: absolute;
 }
 
 .collection_wrapper span {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #532C59;
+  color: #532c59;
 }
 
 /*Provide section*/
@@ -296,10 +294,10 @@ position: absolute;
 }
 
 .section_provide .wrapper {
-display: flex;
-flex-flow: row wrap;
-padding-top: 56px;
-margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 56px;
+  margin: 0 auto;
 }
 
 .provide_wrapper {
@@ -312,7 +310,7 @@ margin: 0 auto;
 }
 
 .provide_wrapper p {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
@@ -322,20 +320,20 @@ margin: 0 auto;
 }
 
 .provide_wrapper span {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #532C59;
+  color: #532c59;
 }
 
 /*Section qanda*/
 .section_qanda {
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .section_qanda .text_wrapper {
@@ -353,21 +351,21 @@ margin: 0 auto;
 }*/
 
 .section_qanda h2 {
-    font-family: 'Syne';
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
-    color: #000000;
-    margin-bottom: 24px;
-    margin-top: 0px;
+  font-family: "Syne";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+  margin-bottom: 24px;
+  margin-top: 0px;
 }
 
 .section_qanda h3 {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #532C59;
+  color: #532c59;
   margin: 0;
 }
 
@@ -375,9 +373,9 @@ margin: 0 auto;
   display: flex;
   flex-flow: column;
   padding: 24px;
-  border: 2px solid #D6BCFA;
+  border: 2px solid #d6bcfa;
   border-radius: 15px;
-  background: #FCFAFF;
+  background: #fcfaff;
   position: relative;
   max-width: 412px;
   height: fit-content;
@@ -385,25 +383,25 @@ margin: 0 auto;
   margin-bottom: 24px;
 }
 
-.qa_wrapper p{
-  font-family: 'Space Grotesk';
+.qa_wrapper p {
+  font-family: "Space Grotesk";
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
-  opacity: 0.8; 
+  opacity: 0.8;
   margin: 0;
   padding-bottom: 12px;
 }
 
 .qa_wrapper span {
   display: flex;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #532C59;
+  color: #532c59;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -418,62 +416,62 @@ margin: 0 auto;
 /*Section ready*/
 .section_ready {
   display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1440px;
-    margin-top: 90px;
-    margin-bottom: 160px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 90px;
+  margin-bottom: 160px;
 }
 
 .ready_wrapper {
-background: #FCFAFF;
-    border: 1px solid #D6BCFA;
-    box-shadow: inset 0px 0px 50px #F8E0FA;
-    border-radius: 60px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 1300px;
-    height: 446px;
-    position: relative; 
-  }
+  background: #fcfaff;
+  border: 1px solid #d6bcfa;
+  box-shadow: inset 0px 0px 50px #f8e0fa;
+  border-radius: 60px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+  height: 446px;
+  position: relative;
+}
 
-  .ready_wrapper h2 {
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    text-align: center;
-    color: #000000;
-    margin-top: 0px;
-    margin-bottom: 16px;
+.ready_wrapper h2 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 
 .ready_wrapper h3 {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #532C59;
-    margin-top: 0px;
-    margin-bottom: 32px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #532c59;
+  margin-top: 0px;
+  margin-bottom: 32px;
 }
 
 .ready_wrapper button {
-  font-family: 'Syne';
+  font-family: "Syne";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
-  background: #532C59;
+  color: #ffffff;
+  background: #532c59;
   border-radius: 15px;
   outline: none;
-  padding: 16px 20px; 
+  padding: 16px 20px;
 }
 
 .ready_wrapper img {
@@ -481,7 +479,7 @@ background: #FCFAFF;
 }
 
 .ready_wrapper img:first-child {
-  left: 0
+  left: 0;
 }
 
 .ready_wrapper img:nth-child(2) {
@@ -502,11 +500,11 @@ footer .top {
   display: flex;
   justify-content: space-between;
   padding-bottom: 41px;
-  border-bottom: 1px solid #CCD5DF;
+  border-bottom: 1px solid #ccd5df;
 }
 
 footer .top a {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -522,7 +520,7 @@ footer .top .a_wrapper a:last-child {
 }
 
 footer .bottom {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -532,4 +530,122 @@ footer .bottom {
   opacity: 0.5;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+/*Adaptive*/
+@media (max-width: 1170) {
+  .sell_nft_img3 {
+    top: 360px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header .wrapper a {
+    display: none;
+  }
+  .sell_nft_img2 {
+    top: -5px;
+    right: 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .section_sell_nft h1 {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .section_sell_nft p {
+    padding-top: 16px;
+    margin-bottom: 24px;
+  }
+  .section_sell_nft p br {
+    display: none;
+  }
+  .section_sell_nft {
+    padding: 0px 16px;
+  }
+  .sell_nft_img1 {
+    top: 148px;
+    left: -110px;
+  }
+  .sell_nft_img2 {
+    right: 2px;
+    top: -5px;
+  }
+  .sell_nft_img3 {
+    width: 122px;
+    height: auto;
+    left: -44px;
+    top: 398px;
+  }
+  .sell_nft_img4 {
+    width: 105px;
+    height: auto;
+    right: -50px;
+    top: 363px;
+  }
+}
+
+/*Section partners*/
+@media (max-width: 1170px) {
+  .section_partners {
+    display: none;
+  }
+}
+
+/*Our team*/
+@media (max-width: 1360px) {
+  .team_wrapper:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .team_wrapper:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .team_wrapper:nth-child(2) {
+    display: none;
+  }
+}
+
+/*Section qanda*/
+@media (max-width: 1220px) {
+  .wrapper2 {
+    display: none;
+  }
+}
+
+/*Section ready*/
+@media (max-width: 1170px) {
+  .section_ready img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_ready img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .section_ready img {
+    display: none;
+  }
+}
+
+/*Footer*/
+@media (max-width: 1000px) {
+  footer .a_wrapper {
+    display: none;
+  }
+  footer img {
+    margin: 0 auto;
+  }
 }
